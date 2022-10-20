@@ -79,3 +79,77 @@ body{
 .app3 .telegram img{
     width: 100%;
 }
+
+@media (min-width: 320px) and (max-width: 480px){
+    .win88{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .win88 .lonely-person i{
+        background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
+        radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
+        border-radius: 100%;
+        font-size: 30px;
+        padding: 10px;
+    }
+    .win88 .lonely-person p{
+        font-size: 9px;
+    }
+    .win88 .win88-pic{
+        width: 160px;
+    }
+    .win88 .win88-pic img{
+        width: 100%;
+    }
+    .app{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .app .playstore,
+    .app .appstore{
+        width: 50%;
+    }
+    .app .playstore img,
+    .app .appstore img{
+        width: 100%;
+    }
+    .app2{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .app2 .android,
+    .app2 .website{
+        width: 50%;
+    }
+    .app2 .android img,
+    .app2 .website img{
+        width: 100%;
+    }
+    .app3{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .app3 .facebook,
+    .app3 .telegram{
+        width: 50%;
+    }
+    .app3 .facebook img,
+    .app3 .telegram img{
+        width: 100%;
+    }
+    .banner{
+        width: 100%;
+    }
+    .banner img{
+        width: 80%;
+        margin: auto;
+    }
+}
